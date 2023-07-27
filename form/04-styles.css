@@ -706,7 +706,7 @@
     background-color: var(--color-light-grey);
   }
 
-  .form-group:focus-within {
+  .form-group:focus {
     background-color: var(--color-light-grey);
     transition: .3s;
     padding: 1rem;
