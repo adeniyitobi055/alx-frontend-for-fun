@@ -706,6 +706,12 @@
     background-color: var(--color-light-grey);
   }
 
+  .form-group:focus-within {
+    background-color: var(--color-light-grey);
+    transition: .3s;
+    padding: 1rem;
+  }
+
   ::placeholder {
     font-style: italic;
     font-size: var(--font-size-medium);
