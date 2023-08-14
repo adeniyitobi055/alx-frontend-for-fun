@@ -1,0 +1,43 @@
+body {
+    background: url(0-sprite.png) no-repeat;
+    border-radius: 25%;
+    background-position: 150px 100px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-weight: bolder;
+    font-size: 40px;
+    padding-left: 160px;
+    padding-top: 30px;
+    display: inline-block;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-between;
+}
+
+span .i-html {
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    border: 1px solid gray;
+}
+
+span .i-js {
+    margin: 0;
+    display: inline-block;
+}
+
+span .i-css {
+    margin: 0;
+    display: inline-block;
+}
+
+li span {
+    margin-left: 0;
+}
