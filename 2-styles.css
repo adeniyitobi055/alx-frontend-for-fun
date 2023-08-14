@@ -1,0 +1,12 @@
+.toggle {
+    display: block;
+    position: absolute;
+}
+
+.toggle-cb {
+    margin: 60px;
+    margin-top: 70px;
+    width: 100px;
+    height: 60px;
+    border-radius: 50%;
+}
