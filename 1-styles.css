@@ -1,0 +1,17 @@
+a {
+    color: rgba(150, 8, 8, 0.925);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgba(150, 8, 8, 0.925);
+    transform: scaleX(1);
+    transition: linear 3s ease-in-out;
+}
+
+a:hover::after {
+    text-decoration: underline;
+    color: rgba(150, 8, 8, 0.925);
+    transition: linear 3s ease-in-out;
+}
