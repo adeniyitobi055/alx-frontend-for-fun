@@ -9,4 +9,4 @@ $sorted_list: ();
 
 $sorted_list: sort($sorted_list);
 
-@debug ($sorted_list);
+@debug #{$sorted_list};
