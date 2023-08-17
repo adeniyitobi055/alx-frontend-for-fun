@@ -1,0 +1,12 @@
+/*sorts and prints list to debug output*/
+@import "103-sort_list.scss";
+
+$sorted_list: ();
+
+@each $names in $list_to_sort {
+    $sorted_list: append($sorted_list, $names);
+}
+
+$sorted_list: sort($sorted_list);
+
+@debug ($sorted_list);
