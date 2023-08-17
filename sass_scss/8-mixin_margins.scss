@@ -1,3 +1,4 @@
+/*custom left and right margin for body and div tags*/
 @mixin customMargins($left, $right) {
     margin-left: $left;
     margin-right: $right;
